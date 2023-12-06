@@ -9,3 +9,17 @@
     height: 60px;
     background-color: #e5e1e1;
 }
+
+.nav-logo{
+    height: 50px;
+    width: 120px;
+}
+
+.logo{
+    background-image: url("logo.png");
+    background-size: cover;
+    height:60px;
+    width: 100%;
+
+}
+
