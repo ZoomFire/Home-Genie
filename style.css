@@ -23,3 +23,46 @@
 
 }
 
+.border{
+    border:1.5px solid transparent;
+}
+
+.border:hover{
+    border:1.5px solid black;
+}
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Style for the search container */
+  .search-container {
+    display: flex;
+    max-width: 300px;
+    margin: 20px auto;
+  }
+  
+  /* Style for the input field */
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  /* Style for the search button */
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Change button color on hover */
+  button:hover {
+    background-color: #0056b3;
+  }
+  
